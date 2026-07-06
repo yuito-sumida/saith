@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="hbd.css">
+        <script src="hbd.js"></script>
+        <meta charset="UTF-8">
+        <title>Answer-Page</title>
+    </head>
+    <body>
+        <div class="body" id="content" style="display:none;">
+            <h1>You Cleared</h1>
+            <h2>おめでとう！あなたは誕生日特別謎解きの謎を解いた！！！</h2>
+            <div class="celebrate">
+                祝
+            </div>
+            <div class="hbd">
+                Happy Birthday!!!
+            </div>
+            <div class="present">
+                Here is present for your birthday<br>given by me.
+            </div>
+        </div>
+        <div class="login" id="login">
+            <div class="password">
+                パスワードを入力してください
+            </div>
+            <input type="text" id="password">
+            <button onclick="checkPassword()" style="cursor:pointer;">送信</button>
+            <div class="unlock" id="unlock" style="display:none;">
+                <span class="lock-icon" id="lockIcon">🔒</span>
+                <span class="unlock-text" id="unlockText">STEP1 Cleared!!!</span>
+            </div>
+            <div class="step2" id="step2" style="display:none;">
+                <img src="STEP2.png" width="696" height="280">
+            </div>
+        </div>
+</html>
