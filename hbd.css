@@ -1,0 +1,83 @@
+.body {
+    background-image: url("cherryblossom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 95vh;
+}
+
+.celebrate {
+    font-size: 100px;
+    color: red;
+}
+
+.hbd {
+    font-size: 50px;
+    font-family: Georgia;
+}
+
+.present {
+    padding-top: 30px;
+    font-size: 43px;
+    font-family: "游ゴシック体";
+}
+
+.login {
+    background-image: url("mystery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 98vh;
+}
+
+h1 {
+    color: blue;
+    background-color: #FFFFFF;
+    width: 220px;
+}
+
+h2 {
+    font-family: serif;
+    padding-bottom: 30px;
+}
+
+.password {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.unlock {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.lock-icon {
+    font-size: 100px;
+    transition: all 2.5s ease;
+    position: relative;
+    z-index: calc(infinity);
+}
+
+.unlock-text {
+    font-size: 40px;
+    background-color: white;
+    padding: 50px;
+    padding-top: 170px;
+    opacity: 0.5;
+    transition: all 1.0s ease;
+}
+
+.unlocked .lock-icon {
+    transform: translateY(-10px) rotate(10deg);
+}
+
+.unlocked .unlock-text {
+    opacity: 1.0;
+}
+
+.step2 {
+    text-align: center;
+    padding-top: 140px;
+}
